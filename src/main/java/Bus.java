@@ -32,4 +32,13 @@ public class Bus {
     public int getCapacity() {
         return this.capacity;
     }
+
+    public Person removePassenger(Person person) {
+        this.passengers.remove(person);
+        return person;
+    }
+
+    public ArrayList<Person> getPassengerList() {
+        return this.passengers;
+    }
 }
