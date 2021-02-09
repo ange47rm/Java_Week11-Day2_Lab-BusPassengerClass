@@ -13,5 +13,6 @@ public class Bus {
     }
 
     public String getDestination() {
+        return this.destination;
     }
 }
